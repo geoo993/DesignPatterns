@@ -63,18 +63,18 @@
 		42F164DF1E6C494400B90E22 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F164DE1E6C494400B90E22 /* MenuTableViewController.swift */; };
 		42F164E11E6C55C200B90E22 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F164E01E6C55C200B90E22 /* ProductDetailsViewController.swift */; };
 		42F84ABF1E6953120029C1E6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F84ABE1E6953120029C1E6 /* ProductCollectionViewCell.swift */; };
-		C79FCFC8210E3CD9006DAC06 /* SwiftKeychainWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C79FCFC5210E3CD3006DAC06 /* SwiftKeychainWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C79FCFC9210E3CDF006DAC06 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79FCFC5210E3CD3006DAC06 /* SwiftKeychainWrapper.framework */; };
+		C79FD06A210E5653006DAC06 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79FD068210E5650006DAC06 /* SwiftKeychainWrapper.framework */; };
+		C79FD06B210E5653006DAC06 /* SwiftKeychainWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C79FD068210E5650006DAC06 /* SwiftKeychainWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C79FCFC4210E3C97006DAC06 /* Embed Frameworks */ = {
+		C79FD06C210E5653006DAC06 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C79FCFC8210E3CD9006DAC06 /* SwiftKeychainWrapper.framework in Embed Frameworks */,
+				C79FD06B210E5653006DAC06 /* SwiftKeychainWrapper.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +141,7 @@
 		42F164DE1E6C494400B90E22 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		42F164E01E6C55C200B90E22 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		42F84ABE1E6953120029C1E6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
-		4A1564AC740FBF9300EB3A47 /* Pods-RWClean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWClean.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWClean/Pods-RWClean.release.xcconfig"; sourceTree = "<group>"; };
-		76CBD002F0E32E0445795A01 /* Pods-RWClean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWClean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWClean/Pods-RWClean.debug.xcconfig"; sourceTree = "<group>"; };
-		C79FCFC5210E3CD3006DAC06 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = ../Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		C79FD068210E5650006DAC06 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = ../Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79FCFC9210E3CDF006DAC06 /* SwiftKeychainWrapper.framework in Frameworks */,
+				C79FD06A210E5653006DAC06 /* SwiftKeychainWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +228,6 @@
 				422FEA5B1E675E8800AFDC41 /* RWClean */,
 				42208B841E6DACA500161D99 /* Image_Attributions.md */,
 				422FEA5A1E675E8800AFDC41 /* Products */,
-				86BDC2CED7AC02582FC4B975 /* Pods */,
 				D6D14564CAE64650771BFEE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -505,19 +502,10 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		86BDC2CED7AC02582FC4B975 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				76CBD002F0E32E0445795A01 /* Pods-RWClean.debug.xcconfig */,
-				4A1564AC740FBF9300EB3A47 /* Pods-RWClean.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D6D14564CAE64650771BFEE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C79FCFC5210E3CD3006DAC06 /* SwiftKeychainWrapper.framework */,
+				C79FD068210E5650006DAC06 /* SwiftKeychainWrapper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -529,13 +517,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422FEA6B1E675E8800AFDC41 /* Build configuration list for PBXNativeTarget "RWClean" */;
 			buildPhases = (
-				F0DD5E1713896F5272A0779E /* [CP] Check Pods Manifest.lock */,
 				422FEA551E675E8800AFDC41 /* Sources */,
 				422FEA561E675E8800AFDC41 /* Frameworks */,
 				422FEA571E675E8800AFDC41 /* Resources */,
-				560E0EA57226BB256EFF311B /* [CP] Embed Pods Frameworks */,
-				52EB4D30A87F3785F9A78F34 /* [CP] Copy Pods Resources */,
-				C79FCFC4210E3C97006DAC06 /* Embed Frameworks */,
+				C79FD06C210E5653006DAC06 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -601,54 +586,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		52EB4D30A87F3785F9A78F34 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWClean/Pods-RWClean-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		560E0EA57226BB256EFF311B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWClean/Pods-RWClean-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0DD5E1713896F5272A0779E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		422FEA551E675E8800AFDC41 /* Sources */ = {
@@ -817,7 +754,6 @@
 		};
 		422FEA6C1E675E8800AFDC41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CBD002F0E32E0445795A01 /* Pods-RWClean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -831,7 +767,6 @@
 		};
 		422FEA6D1E675E8800AFDC41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A1564AC740FBF9300EB3A47 /* Pods-RWClean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

@@ -90,4 +90,34 @@
  protocolto which are Memento objects that we will conform. Lastly you can use UserDefault to
  store the encoded data.
 
+-- Design Principles - Composition vs Inheritance
+ A design principle is a general good advice guideline that is used by many design patterns.
+ Design patterns are characterised as by design principles.
+ Design by composition is one of the most central design principle,
+ and is followed my most design patterns.
+ Design by Composition refers to the ability to achieve polymorphic behaviour and code reuse
+ by composition rather than inheritance. What this means is that you should prefer to use
+ other classes instead of subclassing to share behaviours.
+ There is a related design principle to composition over inheritance, which is called the
+ dependency inversion principle. This states that you should prefer to depend on abstractions
+ instead of details. essentially, this design principle asks 'how can you changes?'.
+ The solution is to depend on things that never change. To do this, you design your classes
+ to depend on protocols instead of other concrete classes directly.
+ This is especially important when it is likely that the dependency will change in the future.
+ For example, instead of having Network-Client depend directly on Auth-Client.
+ You can make it depend on an Auth-Token provider protocol,
+ which defines excatly what the Network-Client needs. this way even if you completely change how
+ Auth-Client is implemented in the future, you wont change the Auth-Token provider
+ and network clients wont be impacted at all.
+
+-- DRY
+ DRY is an acronym for Dont Repeat Yourself. it was introduced by the book
+ 'The Pragmatic Programmer'. Basically, repeating yourself, copying and pasting code or
+ UI elemnets is bad because it is more likely to lead to bugs later on. in such,
+ if you later decise to change code that you've copied, you will need to also remember to
+ update it everywhere that you duplicated it. the more copies you make, the more likely you
+ are going forget to update the one in some place which may lead to inconsistant behaviour or even
+ crashes in your App.
+
+
  */
