@@ -119,5 +119,9 @@
  are going forget to update the one in some place which may lead to inconsistant behaviour or even
  crashes in your App.
 
+-- Visitor Pattern
+ The visitor pattern involves two main types, a Visitor and a Visitable. we can use double
+ dispatch to pass around type information from the Visitable to the Visitor.
+ Double Dispatch is a central idea of the visitor pattern.
 
  */
