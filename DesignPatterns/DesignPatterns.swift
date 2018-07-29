@@ -6,8 +6,6 @@
 //  Copyright © 2018 Geo Games. All rights reserved.
 //
 
-import Foundation
-
 /* DESIGN PATTERNS
 
  design Patterns are re-usable solutions to development problems,
@@ -45,14 +43,20 @@ import Foundation
  and within each of these groups you can start grouping by types.
  By grouping by function, it is easier to scale later on.
 
--- Model-View-Controller (MVC) Pattern
+-- Model-View-Controller-Networking (MVC-N) Pattern
  MVC seperates objects into 3 types: Models, Views and Controllers. However these 3 types
  actually overlap and the overlapping code like handling taps or loading data,
  actually working with a pattern called Model-View-Controller-Networking (MVC-N) pattern.
  This is even better than MVC because it seperates objects into 4 types.
  Instead of creating networking logic, MVC-N creates a network client to handle networking logic.
- Newtork client often make netwrok request, serialise response Data into project specific models
- or domain models. and return models via a viewcontroller using a closure callback
+ Newtork client often make network request, serialise response Data into project specific models
+ or domain models. and return models via a viewcontroller using a closure callback.
+ You can put authentication logic into the Networking client, but it is not really great idea,
+ so you can also pull out a Auth-Client from the Nteworking client as well,
+ which split authentication logic from the netwroking client. By doing so,
+ Auth-Client will have the single resposability of managing authentication.
+ It will prompt the user to sign-in or register, create auth tokens, handle multiple simuntaneous
+ authentication requests and also take care of handling the authentication errors.
 
 -- Model-View-View-Model (MVVM) Pattern
  MVVM seprates objects into 3 types, Models, Views and View Models.
@@ -76,7 +80,14 @@ import Foundation
  to keep the closures strongly references.
 
 
-
-
+-- Memento Pattern
+ The memento pattern captures and externalizes an object state, basically it stores and saves
+ your stuff. The memento pattern consist of three parts, an Originator, Memento and Care Taker.
+ The Orginator is the object that actually does the encoding, for example you may convert
+ the object to data. The Memento is the object that is meant to be encoded,
+ and the Care Taker stores the encoded object.
+ You can use NSKeyArchiver to encode objects into data. Then you can create an <Encodable>
+ protocolto which are Memento objects that we will conform. Lastly you can use UserDefault to
+ store the encoded data.
 
  */

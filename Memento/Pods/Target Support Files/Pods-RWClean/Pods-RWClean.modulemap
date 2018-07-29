@@ -1,0 +1,6 @@
+framework module Pods_RWClean {
+  umbrella header "Pods-RWClean-umbrella.h"
+
+  export *
+  module * { export * }
+}

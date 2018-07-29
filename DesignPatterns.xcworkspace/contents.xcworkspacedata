@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:Carthage/Checkouts/SwiftKeychainWrapper/SwiftKeychainWrapper.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:DesignPatterns"
       name = "DesignPatterns">
       <FileRef
@@ -1684,6 +1691,1069 @@
          <FileRef
             location = "group:LoadingHUD.swift">
          </FileRef>
+         <FileRef
+            location = "group:WelcomePageViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NetworkError.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CollectionViewCenterFlowLayout.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoBuilder.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:UIImageView+URL.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductViewModel.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Authentication"
+      name = "Authentication">
+      <FileRef
+         location = "group:RWClean.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Image_Attributions.md">
+      </FileRef>
+      <Group
+         location = "group:RWClean"
+         name = "RWClean">
+         <FileRef
+            location = "group:NetworkClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MulticastClosureDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MenuTableViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:CleaningServices.xcassets"
+            name = "CleaningServices.xcassets">
+            <Group
+               location = "group:home_services.imageset"
+               name = "home_services.imageset">
+               <FileRef
+                  location = "group:home_services@3x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:home_services@2x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:home_services.jpg">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:business_services.imageset"
+               name = "business_services.imageset">
+               <FileRef
+                  location = "group:business_services.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:business_services@3x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:business_services@2x.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:special.imageset"
+               name = "special.imageset">
+               <FileRef
+                  location = "group:special.png">
+               </FileRef>
+               <FileRef
+                  location = "group:special@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:special@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rw_clean_spray_bottle.imageset"
+               name = "rw_clean_spray_bottle.imageset">
+               <FileRef
+                  location = "group:rw_clean_spray_bottle@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:rw_clean_spray_bottle.png">
+               </FileRef>
+               <FileRef
+                  location = "group:rw_clean_spray_bottle@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:RoomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfo.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Int+HTTPStatusCode.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoBuilder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BathroomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductsViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeSquareFootageViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServices.storyboard">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Icon-App-57x57@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-76x76@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-Small-50x50@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-72x72@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-83.5x83.5@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-72x72@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-60x60@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-Small-50x50@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-60x60@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-57x57@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-76x76@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rwdevcon-bg.imageset"
+               name = "rwdevcon-bg.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:rwdevcon-bg.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:menu.imageset"
+               name = "menu.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:menu@2x.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:rw-logo.imageset"
+               name = "rw-logo.imageset">
+               <FileRef
+                  location = "group:rw-logo.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Welcome.xcassets"
+            name = "Welcome.xcassets">
+            <Group
+               location = "group:toothbrushing_frog.imageset"
+               name = "toothbrushing_frog.imageset">
+               <FileRef
+                  location = "group:toothbrushing_frog.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:towels.imageset"
+               name = "towels.imageset">
+               <FileRef
+                  location = "group:towels.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mop.imageset"
+               name = "mop.imageset">
+               <FileRef
+                  location = "group:welcome_background.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rw-logo-white.imageset"
+               name = "rw-logo-white.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:rw-logo-white.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SynchronizedValue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:WelcomeViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServicesBuilder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BedroomCountViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Models"
+            name = "Models">
+            <FileRef
+               location = "group:User.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AuthToken.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SetNavigationRootSegue.swift">
+         </FileRef>
+         <Group
+            location = "group:HomeInfoBuilder.xcassets"
+            name = "HomeInfoBuilder.xcassets">
+            <Group
+               location = "group:bathroom.imageset"
+               name = "bathroom.imageset">
+               <FileRef
+                  location = "group:bathroom.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:other_rooms.imageset"
+               name = "other_rooms.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:other_rooms.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:home_size.imageset"
+               name = "home_size.imageset">
+               <FileRef
+                  location = "group:home_size.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bedroom.imageset"
+               name = "bedroom.imageset">
+               <FileRef
+                  location = "group:bedroom.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:home.imageset"
+               name = "home.imageset">
+               <FileRef
+                  location = "group:home.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:kitchen.imageset"
+               name = "kitchen.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:kitchen.jpg">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Welcome.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:ReviewHomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServicesTableViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ServerEnvironments.plist">
+         </FileRef>
+         <FileRef
+            location = "group:StartHomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RoomSize.swift">
+         </FileRef>
+         <FileRef
+            location = "group:OtherRoomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AuthClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductDetailsViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UserViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Product.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIViewController+LoadingHUD.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoadingHUD.xib">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductCollectionViewCell.swift">
+         </FileRef>
+         <Group
+            location = "group:Validators"
+            name = "Validators">
+            <FileRef
+               location = "group:EmailValidator.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ParentPushSegue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KitchenSizeViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoadingHUD.swift">
+         </FileRef>
+         <Group
+            location = "group:Controllers"
+            name = "Controllers">
+            <FileRef
+               location = "group:AuthControllerDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SignInViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RegisterViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Views"
+            name = "Views">
+            <FileRef
+               location = "group:AvoidKeyboardScrollView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Auth.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:WelcomePageViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NetworkError.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CollectionViewCenterFlowLayout.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoBuilder.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:UIImageView+URL.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductViewModel.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Memento"
+      name = "Memento">
+      <FileRef
+         location = "group:RWClean.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Image_Attributions.md">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <Group
+            location = "group:SwiftKeychainWrapper"
+            name = "SwiftKeychainWrapper">
+            <Group
+               location = "group:SwiftKeychainWrapper"
+               name = "SwiftKeychainWrapper">
+               <FileRef
+                  location = "group:KeychainWrapper.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftKeychainWrapper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:KeychainItemAccessibility.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:SwiftKeychainWrapper"
+               name = "SwiftKeychainWrapper">
+               <FileRef
+                  location = "group:SwiftKeychainWrapper.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftKeychainWrapper-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftKeychainWrapper.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftKeychainWrapper-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SwiftKeychainWrapper-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-RWClean"
+               name = "Pods-RWClean">
+               <FileRef
+                  location = "group:Pods-RWClean.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-resources.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-RWClean-acknowledgements.markdown">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:RWClean.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+      <Group
+         location = "group:RWClean"
+         name = "RWClean">
+         <FileRef
+            location = "group:NetworkClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MulticastClosureDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MenuTableViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:CleaningServices.xcassets"
+            name = "CleaningServices.xcassets">
+            <Group
+               location = "group:home_services.imageset"
+               name = "home_services.imageset">
+               <FileRef
+                  location = "group:home_services@3x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:home_services@2x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:home_services.jpg">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:business_services.imageset"
+               name = "business_services.imageset">
+               <FileRef
+                  location = "group:business_services.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:business_services@3x.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:business_services@2x.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:special.imageset"
+               name = "special.imageset">
+               <FileRef
+                  location = "group:special.png">
+               </FileRef>
+               <FileRef
+                  location = "group:special@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:special@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rw_clean_spray_bottle.imageset"
+               name = "rw_clean_spray_bottle.imageset">
+               <FileRef
+                  location = "group:rw_clean_spray_bottle@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:rw_clean_spray_bottle.png">
+               </FileRef>
+               <FileRef
+                  location = "group:rw_clean_spray_bottle@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:RoomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfo.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Int+HTTPStatusCode.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoBuilder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BathroomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductsViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HomeSquareFootageViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServices.storyboard">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Icon-App-57x57@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-76x76@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-Small-50x50@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-72x72@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-83.5x83.5@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-20x20@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-72x72@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-60x60@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-Small-50x50@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-60x60@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-57x57@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-76x76@1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-40x40@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-App-29x29@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rwdevcon-bg.imageset"
+               name = "rwdevcon-bg.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:rwdevcon-bg.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:menu.imageset"
+               name = "menu.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:menu@2x.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:rw-logo.imageset"
+               name = "rw-logo.imageset">
+               <FileRef
+                  location = "group:rw-logo.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Welcome.xcassets"
+            name = "Welcome.xcassets">
+            <Group
+               location = "group:toothbrushing_frog.imageset"
+               name = "toothbrushing_frog.imageset">
+               <FileRef
+                  location = "group:toothbrushing_frog.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:towels.imageset"
+               name = "towels.imageset">
+               <FileRef
+                  location = "group:towels.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mop.imageset"
+               name = "mop.imageset">
+               <FileRef
+                  location = "group:welcome_background.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rw-logo-white.imageset"
+               name = "rw-logo-white.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:rw-logo-white.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SynchronizedValue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:WelcomeViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServicesBuilder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BedroomCountViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Models"
+            name = "Models">
+            <FileRef
+               location = "group:User.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Encodable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AuthToken.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SetNavigationRootSegue.swift">
+         </FileRef>
+         <Group
+            location = "group:HomeInfoBuilder.xcassets"
+            name = "HomeInfoBuilder.xcassets">
+            <Group
+               location = "group:bathroom.imageset"
+               name = "bathroom.imageset">
+               <FileRef
+                  location = "group:bathroom.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:other_rooms.imageset"
+               name = "other_rooms.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:other_rooms.jpg">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:home_size.imageset"
+               name = "home_size.imageset">
+               <FileRef
+                  location = "group:home_size.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bedroom.imageset"
+               name = "bedroom.imageset">
+               <FileRef
+                  location = "group:bedroom.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:home.imageset"
+               name = "home.imageset">
+               <FileRef
+                  location = "group:home.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:kitchen.imageset"
+               name = "kitchen.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:kitchen.jpg">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Welcome.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:ReviewHomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CleaningServicesTableViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ServerEnvironments.plist">
+         </FileRef>
+         <FileRef
+            location = "group:StartHomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RoomSize.swift">
+         </FileRef>
+         <FileRef
+            location = "group:OtherRoomCountViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AuthClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductDetailsViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UserViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Product.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIViewController+LoadingHUD.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoadingHUD.xib">
+         </FileRef>
+         <FileRef
+            location = "group:HomeInfoViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ProductCollectionViewCell.swift">
+         </FileRef>
+         <Group
+            location = "group:Validators"
+            name = "Validators">
+            <FileRef
+               location = "group:EmailValidator.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ParentPushSegue.swift">
+         </FileRef>
+         <FileRef
+            location = "group:KitchenSizeViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoadingHUD.swift">
+         </FileRef>
+         <Group
+            location = "group:Controllers"
+            name = "Controllers">
+            <FileRef
+               location = "group:AuthControllerDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SignInViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RegisterViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Views"
+            name = "Views">
+            <FileRef
+               location = "group:AvoidKeyboardScrollView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Auth.storyboard">
+            </FileRef>
+         </Group>
          <FileRef
             location = "group:WelcomePageViewController.swift">
          </FileRef>
